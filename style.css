@@ -96,7 +96,41 @@ footer {
 .research-card h3 {
     margin-top: 0;
 }
-@media (max-width: 700px) {
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.project-card {
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-type {
+    font-weight: bold;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+@media (max-width: 700px) { 
+
+    .project-grid {
+    grid-template-columns: 1fr;
+}
     
     .research-grid {
     grid-template-columns: 1fr;
