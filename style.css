@@ -184,34 +184,43 @@ footer {
     width: 40%;
     height: 3px;
 }
+
+ 
 .experience-item {
     position: absolute;
-    top: 200px;
+    width: 0;
+    height: 0;
 }
+
+/* Nodes 1 and 2 sit on the first horizontal line */
 
 .item-1 {
     left: 8%;
-    top: 200px;
+    top: 201px;
 }
 
 .item-2 {
     left: 28%;
-    top: 200px;
+    top: 201px;
 }
+
+/* Node 3 sits on the lower middle line */
 
 .item-3 {
     left: 48%;
-    top: 240px;
+    top: 241px;
 }
+
+/* Nodes 4 and 5 sit on the upper right line */
 
 .item-4 {
     left: 68%;
-    top: 160px;
+    top: 161px;
 }
 
 .item-5 {
     left: 88%;
-    top: 160px;
+    top: 161px;
 }
 
 .timeline-node {
