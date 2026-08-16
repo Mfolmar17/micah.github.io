@@ -205,6 +205,30 @@ footer {
     background-color: #444;
     border-radius: 50%;
     transform: translate(-50%, -50%);
+    position: relative;
+    z-index: 3;
+}
+}
+.experience-item::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: #777;
+    left: -1px;
+    z-index: 1;
+}
+
+.item-1::before,
+.item-3::before,
+.item-5::before {
+    height: 35px;
+    bottom: 0;
+}
+
+.item-2::before,
+.item-4::before {
+    height: 35px;
+    top: 0;
 }
 
 .experience-card {
