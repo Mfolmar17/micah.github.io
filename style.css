@@ -283,7 +283,76 @@ footer {
 .experience-card:focus .experience-details {
     display: block;
 }
+/* =========================
+   SKILLS & CERTIFICATIONS
+========================= */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.skill-card {
+    position: relative;
+    min-height: 140px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+
+    transform: scale(1);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    z-index: 1;
+}
+
+.skill-card h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.skill-label {
+    margin-top: 0;
+    font-size: 0.9rem;
+}
+
+.skill-details {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 0;
+
+    transition:
+        opacity 0.2s ease,
+        max-height 0.25s ease,
+        margin-top 0.25s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.18);
+    z-index: 20;
+}
+
+.skill-card:hover .skill-details {
+    opacity: 1;
+    visibility: visible;
+    max-height: 200px;
+    margin-top: 15px;
+}
 @media (max-width: 700px) { 
+    .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skill-card:hover {
+    transform: scale(1.08);
+}
 
     .project-grid {
     grid-template-columns: 1fr;
