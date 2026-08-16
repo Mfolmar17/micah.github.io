@@ -20,11 +20,14 @@ html {
 }
 
 body {
+    position: relative;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f7f7f7;
-    color: #222;
+    background-color: var(--cream);
+    color: var(--dark-text);
     line-height: 1.6;
+
+    overflow-x: hidden;
 }
 
 header {
