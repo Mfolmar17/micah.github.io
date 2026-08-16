@@ -31,8 +31,8 @@ header {
     position: relative;
     height: 560px;
 
-    background-color: var(--burnt-orange);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--navy);
 
     overflow: hidden;
 }
@@ -54,41 +54,6 @@ header {
 
     object-fit: cover;
     object-position: center top;
-}
-
-.hero-shape {
-    position: absolute;
-
-    left: 20%;
-    bottom: -100px;
-
-    width: 55%;
-    height: 300px;
-
-    background-color: var(--burnt-orange);
-
-    border-radius:
-        55% 45% 0 0 /
-        30% 40% 0 0;
-
-    transform: rotate(-5deg);
-
-    z-index: 2;
-}
-.hero-shape::after {
-    content: "";
-
-    position: absolute;
-
-    width: 280px;
-    height: 220px;
-
-    right: -130px;
-    top: -35px;
-
-    background-color: var(--burnt-orange);
-
-    border-radius: 50%;
 }
 
 header h1 {
