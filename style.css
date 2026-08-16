@@ -1,4 +1,17 @@
-* {
+
+:root {
+    --navy: #17212B;
+    --charcoal: #26313A;
+
+    --burnt-orange: #B84A1B;
+    --bright-orange: #F47A32;
+
+    --cream: #F5F1EA;
+    --white: #FFFFFF;
+
+    --gray: #A8ADB2;
+    --dark-text: #17212B;
+}* {
     box-sizing: border-box;
 }
 
