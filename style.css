@@ -85,7 +85,8 @@ nav {
 
     padding: 20px 30px;
 
-    background-color: transparent;
+    background-color: var(--navy);
+    border-top: 4px solid var(--bright-orange);
 }
 
 
