@@ -57,10 +57,9 @@ main {
 }
 
 section {
-    background-color: white;
-    padding: 35px;
-    margin: 30px 0;
-    border-radius: 10px;
+    width: 100%;
+    padding: 80px 8%;
+    margin: 0;
     scroll-margin-top: 80px;
 }
 
