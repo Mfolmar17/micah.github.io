@@ -137,38 +137,53 @@ footer {
 
 .timeline-path {
     position: absolute;
-    left: 5%;
-    right: 5%;
-    top: 160px;
-    height: 120px;
+    inset: 0;
 }
 
-.timeline-path::before,
-.timeline-path::after {
-    content: "";
+.timeline-segment {
     position: absolute;
-    border-color: #777;
-    border-style: solid;
+    background-color: #777;
 }
 
-.timeline-path::before {
-    left: 0;
-    top: 40px;
-    width: 45%;
+/* Left horizontal section */
+.segment-1 {
+    left: 5%;
+    top: 200px;
+    width: 40%;
+    height: 3px;
+}
+
+/* First downward bend */
+.segment-2 {
+    left: 45%;
+    top: 200px;
+    width: 3px;
     height: 40px;
-
-    border-width: 3px 3px 0 0;
 }
 
-.timeline-path::after {
-    right: 0;
-    top: 0;
-    width: 55%;
-    height: 80px;
-
-    border-width: 0 0 3px 3px;
+/* Short middle horizontal section */
+.segment-3 {
+    left: 45%;
+    top: 240px;
+    width: 10%;
+    height: 3px;
 }
 
+/* Second vertical bend */
+.segment-4 {
+    left: 55%;
+    top: 160px;
+    width: 3px;
+    height: 83px;
+}
+
+/* Right horizontal section */
+.segment-5 {
+    left: 55%;
+    top: 160px;
+    width: 40%;
+    height: 3px;
+}
 .experience-item {
     position: absolute;
     top: 200px;
