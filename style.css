@@ -242,23 +242,29 @@ footer {
 .experience-item::before {
     content: "";
     position: absolute;
-    width: 2px;
-    background-color: #777;
+
     left: -1px;
-    z-index: 1;
+    width: 2px;
+    height: 27px;
+
+    background-color: #777;
+
+    z-index: 2;
 }
+
+/* Cards ABOVE their node */
 
 .item-1::before,
 .item-3::before,
 .item-5::before {
-    height: 35px;
-    bottom: 0;
+    bottom: 8px;
 }
+
+/* Cards BELOW their node */
 
 .item-2::before,
 .item-4::before {
-    height: 35px;
-    top: 0;
+    top: 8px;
 }
 
 .experience-card {
