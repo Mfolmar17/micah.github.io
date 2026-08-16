@@ -28,10 +28,13 @@ body {
 }
 
 header {
-    background-color: #243447;
-    color: white;
-    text-align: center;
-    padding: 70px 20px;
+    position: relative;
+    height: 560px;
+
+    background-color: var(--burnt-orange);
+    color: var(--white);
+
+    overflow: hidden;
 }
 
 header h1 {
