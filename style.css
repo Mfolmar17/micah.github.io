@@ -48,7 +48,7 @@ body {
     background-color: var(--bright-orange);
 
     /* Right side rises upward */
-    transform: rotate(-50deg);
+    transform: rotate(-44deg);
     transform-origin: center;
 
     z-index: 2;
