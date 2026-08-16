@@ -30,6 +30,35 @@ body {
     overflow-x: hidden;
 }
 
+/* =========================
+   DIAGONAL DESIGN STRIPE
+========================= */
+
+.diagonal-stripe {
+    position: absolute;
+
+    top: 40px;
+    right: 10%;
+
+    width: 75px;
+    height: 900px;
+
+    background-color: var(--bright-orange);
+
+    transform: rotate(38deg);
+    transform-origin: top center;
+
+    z-index: 0;
+
+    pointer-events: none;
+}
+
+header,
+main,
+footer {
+    position: relative;
+    z-index: 1;
+}
 header {
     position: relative;
     height: 560px;
