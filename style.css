@@ -37,18 +37,21 @@ body {
 .diagonal-stripe {
     position: absolute;
 
-    top: 40px;
-    right: 10%;
+    /* Starting area near upper-right */
+    top: 170px;
+    left: -20vw;
 
-    width: 75px;
-    height: 900px;
+    /* Wider than the entire screen */
+    width: 140vw;
+    height: 85px;
 
     background-color: var(--bright-orange);
 
-    transform: rotate(38deg);
-    transform-origin: top center;
+    /* Right side rises upward */
+    transform: rotate(-24deg);
+    transform-origin: center;
 
-    z-index: 0;
+    z-index: 2;
 
     pointer-events: none;
 }
