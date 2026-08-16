@@ -196,7 +196,16 @@ h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
 }
-
+#about {
+    position: relative;
+    background-color: transparent;
+    z-index: 1;
+}
+#about h2,
+#about p {
+    position: relative;
+    z-index: 5;
+}
 a {
     color: #356fa3;
 }
