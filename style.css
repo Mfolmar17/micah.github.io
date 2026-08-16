@@ -284,13 +284,15 @@ footer {
 .item-3 .experience-card,
 .item-5 .experience-card {
     bottom: 35px;
-    left: -75px;
+    left: 0;
+    transform: translateX(-50%);
 }
 
 .item-2 .experience-card,
 .item-4 .experience-card {
     top: 35px;
-    left: -75px;
+    left: 0;
+    transform: translateX(-50%);
 }
 
 .experience-summary h3 {
