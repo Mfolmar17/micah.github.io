@@ -218,12 +218,14 @@ footer {
     margin-top: 10px;
 }
 
-.experience-card:hover {
+.experience-card:hover,
+.experience-card:focus {
     width: 280px;
     z-index: 20;
 }
 
-.experience-card:hover .experience-details {
+.experience-card:hover .experience-details,
+.experience-card:focus .experience-details {
     display: block;
 }
 @media (max-width: 700px) { 
