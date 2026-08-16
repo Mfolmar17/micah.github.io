@@ -139,9 +139,34 @@ footer {
     position: absolute;
     left: 5%;
     right: 5%;
-    top: 200px;
-    height: 3px;
-    background-color: #777;
+    top: 160px;
+    height: 120px;
+}
+
+.timeline-path::before,
+.timeline-path::after {
+    content: "";
+    position: absolute;
+    border-color: #777;
+    border-style: solid;
+}
+
+.timeline-path::before {
+    left: 0;
+    top: 40px;
+    width: 45%;
+    height: 40px;
+
+    border-width: 3px 3px 0 0;
+}
+
+.timeline-path::after {
+    right: 0;
+    top: 0;
+    width: 55%;
+    height: 80px;
+
+    border-width: 0 0 3px 3px;
 }
 
 .experience-item {
@@ -151,22 +176,27 @@ footer {
 
 .item-1 {
     left: 8%;
+    top: 200px;
 }
 
 .item-2 {
     left: 28%;
+    top: 200px;
 }
 
 .item-3 {
     left: 48%;
+    top: 240px;
 }
 
 .item-4 {
     left: 68%;
+    top: 160px;
 }
 
 .item-5 {
     left: 88%;
+    top: 160px;
 }
 
 .timeline-node {
