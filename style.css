@@ -38,17 +38,17 @@ body {
     position: absolute;
 
     /* Starting area near upper-right */
-    top: 170px;
-    left: -20vw;
+    top: 250px;
+    left: -25vw;
 
     /* Wider than the entire screen */
-    width: 140vw;
+    width: 150vw;
     height: 85px;
 
     background-color: var(--bright-orange);
 
     /* Right side rises upward */
-    transform: rotate(-24deg);
+    transform: rotate(-38deg);
     transform-origin: center;
 
     z-index: 2;
